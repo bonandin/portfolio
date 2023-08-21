@@ -31,13 +31,14 @@ body {
 }
 
 .apresentacao-conteudo-titulo {
-        font-size: 36px;
-        font-family: 'Krona One', 'sans-serif';
-}
+        font-size: 65px;
+        font-family: 'Lora', serif;
+ }
 
 .apresentacao-conteudo-paragrafo {
-        font-size: 36px;
-        font-family: 'Montserrat', sans-serif;    
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;    
 }
 
 .apresentacao-links {
@@ -47,18 +48,25 @@ body {
 
 .botao {
         background-color: #04b0ff;
-        color: rgb(255, 255, 255)5;
+        color: #fff;
         width: 280px;
         text-align: center;
         border-radius: 16px;
         font-size: 24px;
         padding: 21.5px 0;
         text-decoration: none;
-        font-family: 'Montserrat', sans-serif; 
+        font-family: 'Montserrat', sans-serif;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .imagem {
-        max-width: 45%;
-        width: auto;
+    max-width: 40%;
+    width: auto;
+    max-height: 300%;
+    height: 300%;
+    border: 2px solid #01a8f5;
+    border-radius: 10px;
 }
 
