@@ -35,7 +35,7 @@
             flex-direction: column;
             gap: 30px;
            align-items: center;
-           text-align: center;
+           text-align: justify;
            height: auto;
            order: 2;
         }
@@ -61,6 +61,12 @@
             align-items: center;
             width: 500px;
             gap: 20px;
+    }
+
+    .apresentacao-links-conteudo {
+       font-family: 'krona one' , sans-serif;
+       font-weight: 400;
+       font-size: 24px;
     }
     
     .botao1 {
@@ -218,6 +224,23 @@
         position: relative;
         overflow: hidden;
         border-radius: 50%;
+    }
+
+    .rodape{
+        color: white;
+        background-color: #5a4816 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'krona one', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 20px;   
+    }
+    .rodape a:hover {
+        color: #b61ca9;
+        
     }
     
     
